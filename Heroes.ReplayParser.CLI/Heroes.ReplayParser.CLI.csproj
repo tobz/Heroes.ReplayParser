@@ -1,10 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Foole.Mpq\Foole.Mpq.csproj" />
+    <ProjectReference Include="..\Heroes.ReplayParser\Heroes.ReplayParser.csproj" />
   </ItemGroup>
 </Project>

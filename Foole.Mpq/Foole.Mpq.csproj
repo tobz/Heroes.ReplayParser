@@ -5,6 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Foole.Mpq\Foole.Mpq.csproj" />
+    <PackageReference Include="SharpZipLib" Version="0.86.0" />
   </ItemGroup>
 </Project>
